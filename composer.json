@@ -1,0 +1,17 @@
+{
+    "name": "daniel/myframework",
+    "autoload": {
+        "psr-4": {
+            "Daniel\\Myframework\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "danielopes7"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^7.0",
+        "symfony/http-foundation": "^7.0"
+    }
+}
